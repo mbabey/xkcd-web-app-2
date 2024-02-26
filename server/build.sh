@@ -1,5 +1,6 @@
 #!/bin/bash
 
-npm i .
+npm i
 cd ./front-end
+npm i
 npm run build

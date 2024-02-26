@@ -34,5 +34,5 @@ app.listen(port, async () => {
 app.use('/api', apiRouter);
 
 app.get('*', (_, res) => {
-  res.sendFile(path.join(__dirname, "..", "front-end", "build", "index.html"));
+  res.sendFile(path.join(__dirname, "front-end", "build", "index.html"));
 });
